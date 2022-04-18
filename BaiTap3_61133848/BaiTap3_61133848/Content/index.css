@@ -1,0 +1,32 @@
+﻿body{
+    padding:0;
+}
+td{
+    text-align:right;
+    font-weight:bold;
+}
+p {
+    border-bottom: 2px solid gray;
+    font-size:15px;
+    font-weight:bold;
+}
+form {
+    border: solid;
+    border-width: thin;
+    width: 400px;
+    height: 350px;
+    align-items:center;
+}
+input {
+    border-width: 0.5px;
+    height:25px;
+}
+.image {
+    margin-top: 10px;
+    height: 10px;
+}
+.button{
+    position:absolute;
+    margin-right:100px;
+    
+}

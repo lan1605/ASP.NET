@@ -1,0 +1,80 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+<link rel="stylesheet" type="text/css" href="~/Content/index.css"/>
+<body>
+    @{Html.BeginForm("Index", "NhanVien_61133848", FormMethod.Post, new { enctype = "multipart/form-data" });}
+    <form name="f" action="/NhanVien_61133848/Confirm">
+        <p>THÔNG TIN THÀNH VIÊN ĐĂNG KÝ</p>
+            <table>
+                <tr>
+                    <td>
+                        Mã số nhân viên
+                    </td>
+                    <td>
+                        <input type="Text" name="EmpID" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Họ tên
+                    </td>
+                    <td>
+                        <input type="Text" name="Name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Ngày sinh
+                    </td>
+                    <td>
+                        <input type="text" name="BirthOfDate" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        E-mail
+                    </td>
+                    <td>
+                        <input type="text" name="Email" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Mật khẩu
+                    </td>
+                    <td>
+                        <input type="password" name="Password" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Đơn vị
+                    </td>
+                    <td>
+                        <input type="text" name="Department" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Ảnh đại diện
+                    </td>
+                    <td>
+                        <input id="image" type="file" name="Avatar" value="Chọn tệp" accept="image" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                        <input id="button" type="submit" value="Đăng ký" />
+
+                    </td>
+                </tr>
+            </table>
+    </form>
+</body>
+
+

@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "Confirm";
+    Layout = null;
+}
+
+
+<link rel="stylesheet" type="text/css" href="~/Content/confirm.css" />
+<div>
+
+    <p>THÔNG TIN NHÂN VIÊN ĐÃ ĐĂNG KÝ</p>
+    <table>
+
+        <tr>
+            <td rowspan="6">
+
+                <img src="@ViewBag.Avatar" />
+
+            </td>
+            <td>Mã nhân viên:</td>
+            <td>@ViewBag.EmpId</td>
+
+        </tr>
+        <tr>
+            <td>Họ và tên:</td>
+            <td>@ViewBag.Name</td>
+
+        </tr>
+        <tr>
+            <td>Ngày sinh:</td>
+            <td>@ViewBag.BirthOfDate</td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td>@ViewBag.Email</td>
+        </tr>
+        <tr>
+            <td>Mật khẩu :</td>
+            <td>@ViewBag.Password</td>
+        </tr>
+        <tr>
+            <td>Phòng ban:</td>
+            <td>@ViewBag.Department</td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="@Url.Action("Index","NhanVien_61133848")">Quay lại</a></td>
+        </tr>
+    </table>
+</div>

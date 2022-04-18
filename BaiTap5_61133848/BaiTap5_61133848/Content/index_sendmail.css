@@ -1,0 +1,29 @@
+﻿td {
+    text-align: right;
+    font-weight: bold;
+}
+
+p {
+    border-bottom: 1px solid gray;
+    font-size: 25px;
+    font-weight: bold;
+    text-align:center;
+}
+
+form {
+
+ 
+    width: 400px;
+    height: 400px;
+}
+
+input, textarea {
+    border-width: 0.5px;
+    height: 25px;
+    font-weight: bold;
+}
+
+.button {
+    position: absolute;
+    margin-right: 100px;
+}
